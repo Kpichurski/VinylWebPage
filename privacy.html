@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy - Vinyl</title>
+    <title>Privacy Policy - VinylLens</title>
     <meta
       name="description"
-      content="Vinyl Privacy Policy - Learn how we protect your privacy and handle your data."
+      content="VinylLens Privacy Policy - what the app collects, why, who it is shared with and how to contact us."
     />
 
     <!-- Favicon -->
@@ -53,156 +53,261 @@
         <div class="privacy-header">
           <a href="index.html" class="back-link">← Back to Vinyl</a>
           <h1>Privacy Policy</h1>
-          <p class="last-updated">Last updated: January 7, 2025</p>
+          <p class="last-updated">Last updated: November 2, 2026</p>
         </div>
 
         <div class="privacy-body">
           <h2>Introduction</h2>
           <p>
-            Vinyl ("we," "our," or "us") is committed to protecting your
-            privacy. This Privacy Policy explains how we collect, use, disclose,
-            and safeguard your information when you use our mobile application
-            for vinyl record scanning and collection management.
+            This Privacy Policy explains what data the VinylLens app for iPhone,
+            iPad and Android collects, why we collect it, who we share it with
+            and what choices you have. VinylLens is published by the developer
+            named on its App Store and Google Play pages ("we," "our," or
+            "us"), who is responsible for the data described here.
           </p>
+
+          <h2>The Short Version</h2>
+          <ul>
+            <li>
+              You don't need an account. We never ask for your name, email
+              address or phone number.
+            </li>
+            <li>Your record collection is stored on your device.</li>
+            <li>
+              To identify a record, the app sends the photo you scan to our
+              server, which uses an AI service to recognize it. We don't keep
+              the photos.
+            </li>
+            <li>
+              We collect usage and crash data, tied only to a random
+              identifier, to improve the app.
+            </li>
+            <li>
+              Payments are handled by Apple or Google. We never see your
+              payment details.
+            </li>
+            <li>
+              We don't sell your data, show ads, or track you across other
+              companies' apps and websites.
+            </li>
+          </ul>
 
           <h2>Information We Collect</h2>
 
-          <h3>Personal Information:</h3>
+          <h3>Record Photos and Label Text:</h3>
           <p>
-            We do not collect any personally identifiable information such as
-            your name, email address, or phone number.
+            When you scan a record or choose a photo from your library, the app
+            crops the image to the record and sends it to our server, together
+            with the text the app has read from the label on your device and
+            your currency. Our server passes the image to an AI provider to
+            recognize the record and sends the result back to the app. When the
+            app reads a barcode, only the barcode number is sent.
           </p>
-
-          <h3>Record Photos and Data:</h3>
           <p>
-            Vinyl processes your vinyl record photos locally on your device. 
-            We do not upload, store, or transmit your record photos to our servers or any
-            third-party services. All record recognition and processing happens
-            entirely on your device.
+            We do not store your photos on our server; they are discarded once
+            the request is answered. The cover photos you keep in your
+            collection stay on your device.
           </p>
 
           <h3>Collection Data:</h3>
           <p>
-            Your record collection information, including scanned records, album details, 
-            and collection statistics are stored locally on your device. This data 
-            is not transmitted to our servers or shared with third parties.
+            Your records, collections, prices and app settings are stored only
+            on your device (and in your device backup, if you use one). They are
+            not uploaded to our servers. When you export your collection, the
+            file is created on your device and shared only where you choose to
+            send it. Deleting the app deletes this data.
           </p>
 
-          <h3>Usage Data:</h3>
+          <h3>Usage and Diagnostic Data:</h3>
           <p>
-            We do not collect analytics data or usage statistics. Vinyl
-            operates entirely offline on your device.
-          </p>
-
-          <h3>Local Storage:</h3>
-          <p>
-            The app stores your preferences locally on your device, including:
+            We use PostHog, an analytics service with servers in the European
+            Union, to understand how the app is used and to find and fix bugs.
+            The app sends events such as:
           </p>
           <ul>
-            <li>Record collection database and scanned records</li>
-            <li>App settings and preferences</li>
-            <li>Scanning history and favorites</li>
-            <li>Collection organization and tags</li>
-            <li>Album information and track listings</li>
+            <li>App opened, onboarding steps and screens viewed</li>
+            <li>
+              Scans started and finished, including the artist and title of the
+              identified record
+            </li>
+            <li>Records saved and collections exported</li>
+            <li>Paywall views and the steps of a purchase</li>
+            <li>Errors, response times and crash reports</li>
+          </ul>
+          <p>
+            Each event includes the app version, device model, operating
+            system version, language, time zone and a random identifier created
+            when the app is installed. PostHog receives your IP address and uses
+            it to determine an approximate location (country and city). The same
+            random identifier is sent with recognition requests, so that server
+            errors can be matched with app errors. It is not linked to your name
+            or to any account.
+          </p>
+
+          <h3>Purchases:</h3>
+          <p>
+            Subscriptions are bought through the App Store or Google Play, and
+            we never see your payment details. RevenueCat processes your
+            purchase receipts, together with a random app user ID, so the app
+            knows whether you have Premium. The purchase steps (for example,
+            the plan chosen and whether the purchase was completed or
+            cancelled) are also recorded in our analytics.
+          </p>
+
+          <h3>Network Data:</h3>
+          <p>
+            Like any internet service, our server and Cloudflare, which sits in
+            front of it, process your IP address to deliver responses and to
+            protect the service from abuse. Album cover images are loaded from
+            the image server of the record database we use, which also receives
+            your IP address when it delivers an image.
+          </p>
+
+          <h3>What We Don't Collect:</h3>
+          <ul>
+            <li>Your name, email address, phone number or contacts</li>
+            <li>Your precise (GPS) location</li>
+            <li>
+              Advertising identifiers (IDFA or Android Advertising ID). The app
+              shows no ads and does not track you across other companies' apps
+              or websites.
+            </li>
           </ul>
 
           <h2>How We Use Your Information</h2>
-          <p>We use locally stored information to:</p>
           <ul>
-            <li>Provide record recognition and identification services</li>
-            <li>Maintain your personal record collection database</li>
-            <li>Track album information and artist details</li>
-            <li>Organize and categorize your collection</li>
-            <li>Provide collection statistics and insights</li>
-            <li>Remember your app preferences and settings</li>
+            <li>To recognize records and show album details and prices</li>
+            <li>To provide and restore your Premium subscription</li>
+            <li>To find and fix crashes, errors and slow responses</li>
+            <li>To understand which features are used and improve the app</li>
+            <li>To keep our service secure and prevent abuse</li>
           </ul>
 
-          <h2>Data Sharing and Disclosure</h2>
+          <h2>Third-Party Services</h2>
           <p>
-            We do not sell, trade, or otherwise transfer your information to
-            third parties. Your record photos and collection data remain on your device.
+            We share data only with the service providers that run the app for
+            us:
           </p>
+          <ul>
+            <li>
+              <strong>Our server (hosted by OVHcloud) and Cloudflare</strong> -
+              hosting and network for record recognition
+            </li>
+            <li>
+              <strong>Google (Gemini API)</strong> and, for older app versions,
+              <strong>OpenAI</strong> - AI recognition of record photos. They
+              process the images under their API terms and may keep requests
+              for a limited time, for example to detect abuse.
+            </li>
+            <li>
+              <strong>PostHog</strong> (European Union) - analytics and crash
+              reports
+            </li>
+            <li>
+              <strong>RevenueCat</strong> - subscription status and purchase
+              receipts
+            </li>
+            <li>
+              <strong>Apple and Google</strong> - app distribution and payments.
+              On Android, Google ML Kit reads barcodes and label text on your
+              device and may send Google anonymous metrics about how these
+              features perform.
+            </li>
+          </ul>
           <p>
-            We may disclose information if required by law or to protect our
-            rights, property, or safety.
+            We do not sell, rent or trade your information. We may disclose
+            information if required by law or to protect our rights, property
+            or safety.
           </p>
 
-          <h2>Data Security</h2>
+          <h2>Legal Basis</h2>
           <p>
-            Your record photos and collection data remain on your device. We do not
-            transmit or store any record data externally. While we take steps to
-            protect your information, no method of electronic storage is 100%
-            secure.
+            If you are in the European Economic Area or the United Kingdom, we
+            process your data because it is necessary to provide the service
+            you ask for (record recognition and purchases), and on the basis of
+            our legitimate interest in keeping the app working, secure and
+            improving (analytics and crash reports).
+          </p>
+
+          <h2>International Transfers</h2>
+          <p>
+            Some of our providers, such as Google, OpenAI, RevenueCat and
+            Cloudflare, may process data in the United States or other
+            countries outside the European Economic Area. Where this happens,
+            they rely on safeguards such as the EU-U.S. Data Privacy Framework
+            or the European Commission's Standard Contractual Clauses.
           </p>
 
           <h2>Data Retention</h2>
+          <ul>
+            <li>
+              Photos are not stored by us. AI providers may keep them briefly
+              under their own terms.
+            </li>
+            <li>
+              Analytics and crash data are kept only as long as needed to
+              analyze and improve the app, and are then deleted.
+            </li>
+            <li>
+              Purchase records are kept as long as needed to provide your
+              subscription and to meet legal obligations.
+            </li>
+            <li>
+              Data on your device stays there until you delete it or the app.
+            </li>
+          </ul>
+
+          <h2>Data Security</h2>
           <p>
-            Your collection data and app preferences are stored locally and remain 
-            there until you delete the app or reset your settings. We do not retain 
-            any personal data or record photos on our servers.
+            All data the app sends is encrypted in transit (HTTPS). While we
+            take steps to protect your information, no method of transmission
+            or storage is 100% secure.
+          </p>
+
+          <h2>Your Rights</h2>
+          <p>
+            Depending on where you live, you may have the right to access,
+            correct or delete your data, to restrict or object to its
+            processing (including analytics), to data portability, and to lodge
+            a complaint with your local data protection authority.
+          </p>
+          <p>
+            Because we don't know your name and use only random identifiers, we
+            usually can't link data to you on our own. Contact us and we will
+            help; we may ask for details that let us find the data, such as the
+            date of a scan or your purchase receipt. Deleting the app removes
+            the data stored on your device. You can manage or cancel your
+            subscription in your App Store or Google Play account settings.
           </p>
 
           <h2>Children's Privacy</h2>
           <p>
-            Our app is suitable for all ages. We do not knowingly collect
-            personal information from children under 13. If you are a parent or
+            VinylLens is not directed at children under 13. We do not knowingly
+            collect personal information from children. If you are a parent or
             guardian and believe your child has provided us with personal
-            information, please contact us.
+            information, please contact us and we will delete it.
           </p>
-
-          <h2>Third-Party Services</h2>
-          <p>
-            Vinyl does not use any third-party analytics, crash reporting
-            services, or cloud storage services. All processing is done locally
-            on your device.
-          </p>
-
-          <h2>Record Recognition Technology</h2>
-          <p>
-            Our record recognition technology uses on-device machine learning models
-            to identify vinyl records. No record images or data are sent to external
-            servers for processing.
-          </p>
-
-          <h2>App Store Compliance</h2>
-          <p>
-            Vinyl complies with both Apple's App Store and Google Play
-            Store guidelines and privacy requirements:
-          </p>
-          <ul>
-            <li>No tracking or analytics collection</li>
-            <li>No data sharing with third parties</li>
-            <li>Local-only data processing</li>
-            <li>Transparent privacy practices</li>
-            <li>Cross-platform consistency</li>
-          </ul>
-
-          <h2>Your Rights</h2>
-          <p>You have the right to:</p>
-          <ul>
-            <li>Access your data (stored locally on your device)</li>
-            <li>Delete your data (by uninstalling the app)</li>
-            <li>Contact us with any privacy concerns</li>
-            <li>Request information about our data practices</li>
-          </ul>
 
           <h2>Changes to This Privacy Policy</h2>
           <p>
-            We may update this Privacy Policy from time to time. We will notify
-            you of any changes by posting the new Privacy Policy on our website
-            and updating the "Last updated" date above.
+            We may update this Privacy Policy when the app or our providers
+            change. We will post the new version on this page and update the
+            "Last updated" date above.
           </p>
 
           <h2>Contact Us</h2>
           <p>
-            If you have any questions about this Privacy Policy, please contact
-            us:
+            If you have any questions about this Privacy Policy or want to
+            exercise your rights, please contact us:
           </p>
           <ul>
-            <li>Email: privacy@vinyl.app</li>
+            <li>
+              Email:
+              <a href="mailto:crisof9@gmail.com">crisof9@gmail.com</a>
+            </li>
             <li>
               Website:
-              <a href="https://vinyl.app">https://vinyl.app</a>
+              <a href="https://vinyl.happread.com">https://vinyl.happread.com</a>
             </li>
           </ul>
         </div>
